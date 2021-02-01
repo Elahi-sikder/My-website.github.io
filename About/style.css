@@ -75,6 +75,8 @@ th{
 .word {
   font-size :14px ;
 }
+
+
 .experience-bg{
   position :relative ;
   background :#020117 ;
@@ -102,7 +104,8 @@ th{
   z-index: -2;
   filter: blur (40px)
 }
- 
+
+
 .experience{
   position :relative ;
 }
