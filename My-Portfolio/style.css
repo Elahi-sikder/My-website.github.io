@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background :#111111;
+   }
+.poppins{
+  font-family: 'Poppins', sans-serif; 
+  font-weight: bold ;
+}
+header{
+  background :#2e2e2e ;
+  color :white ;
+  text-transform :uppercase ;
+  border-top: 0.5px solid white;
+  padding :10px 0px ;
+}
+.header-name{
+  font-weight: 800;
+}
+.info{
+  margin-top :70px;
+}
+
+/*list*/
+
+.list{
+  background :#212121;
+  position :absolute ;
+  top:0;
+  left :0;
+  width: 100%;
+  height: 100vh ;
+  display: none ;
+}
+
+.cross-icon span{
+  display :block ;
+  float :right ;
+  margin-right :50px ;
+  margin-top :40px ;
+  font-size :1.3em;
+  cursor: pointer ;
+  
+}
+.ul-main li{
+  background :#212121 !important;
+  color: white ;
+  padding :20px;
+  margin-left :10px ;
+}
+.ul-main li:nth-child(1){
+  border-top: none;
+}
+
+
+.ul-main li i{
+  display :inline-block ;
+  margin-right: 10px;
+}
+.ul-main li i:hover {
+  color: #FFC107;
+}
+
+.portfolio{
+  margin-top :80px ;
+  position :relative ;
+}
+.portfolio::after {
+  content: "";
+  position: absolute ;
+  display :block ;
+  left:30%;
+  bottom :0;
+  background :#FFC107 ;
+  height :1px;
+  width :150px ;
+  transform:translateY(60px);
+}
+.photo{
+  margin-top :10px;
+}
