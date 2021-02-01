@@ -76,10 +76,33 @@ th{
   font-size :14px ;
 }
 .experience-bg{
-  background :#212121 ;
-  border: 3px solid #3E2723 ;
-  border-radius :2px;
+  position :relative ;
+  background :#020117 ;
+} 
+
+.experience-bg::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  z-index: -1;
 }
+
+.experience-bg::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  z-index: -2;
+  filter: blur (40px)
+}
+ 
 .experience{
   position :relative ;
 }
