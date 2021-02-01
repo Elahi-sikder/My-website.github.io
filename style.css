@@ -1,0 +1,81 @@
+body {
+   background :black;
+    font-family: 'Nunito', sans-serif; 
+}
+
+ /*font-family: 'Poppins', sans-serif  !important */
+ 
+ /*Home page info......... */
+
+.menu-icon{
+  float :right ;
+  margin-top :40px ;
+  margin-right :50px;
+}
+ 
+.icon{
+  background :#212121;
+  font-size :1.3em;
+  font-weight: 200 ;
+  padding :10px 15px;
+  
+  
+}
+ 
+.info{
+  margin-top: 5%;
+  margin-left :10px ;
+}
+.greeting{
+  font-family:  'Poppins', sans-serif  !important ;
+  font-weight: 400 ;
+  font-size :1.1em
+}
+.my-name{
+  font-family:  'Poppins', sans-serif  !important ;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.my-name-color{
+  color :#ffB300;
+}
+
+/*list*/
+
+.list{
+background :#212121;
+  position :absolute ;
+  top:0;
+  left :0;
+  width: 100%;
+  height: 100vh ;
+  display: none ;
+}
+
+.cross-icon span{
+  display :block ;
+  float :right ;
+  margin-right :50px ;
+  margin-top :40px ;
+  font-size :1.3em;
+  cursor: pointer ;
+  
+}
+.ul-main li{
+  background :#212121  !important;
+  color: white ;
+  padding :20px;
+  margin-left :10px ;
+}
+.ul-main li:nth-child(1){
+  border-top: none;
+}
+
+
+.ul-main li i{
+  display :inline-block ;
+ margin-right: 10px;
+}
+.ul-main li i:hover {
+  color: #FFC107;
+}
