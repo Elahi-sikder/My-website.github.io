@@ -88,23 +88,25 @@
     <a class="rounded-circle"href="https://www.instagram.com/elahisikder/?hl=en"><i class="fab fa-instagram"></i> </a>
   </div>
   
-  <form class="mt-5">
+  <form class="mt-5  ">
     
   <div class="form-group mb-4">
-    <input type="text" class="form-control rounded-pill modify-input" id="exampleFormControlInput1" placeholder="YOUR NAME">
+    <input type="text" class="form-control rounded-pill modify-input text-white nam" id="exampleFormControlInput1" placeholder="YOUR NAME"required="required" minlength="2" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Number not allowed')" />
+    <p class ="lead error"></p>
   </div>
   <div class="form-group mb-4">
-     <input type="email" class="form-control rounded-pill modify-input " id="exampleFormControlInput1" placeholder="YOUR EMAIL">
+     <input type="email" class="form-control rounded-pill modify-input text-white " id="exampleFormControlInput1" placeholder="YOUR EMAIL" required="required">
   </div>
   <div class="form-group mb-4">
-     <input type="text" class="form-control rounded-pill modify-input" id="exampleFormControlInput1" placeholder="YOUR SUBJECT">
+     <input type="text" class="form-control rounded-pill modify-input text-white" id="exampleFormControlInput1" placeholder="YOUR SUBJECT"required ="required">
   </div>
   <div class="form-group mb-4">
     
-    <textarea class="form-control modify-textarea rounded-3" id="exampleFormControlTextarea1" rows="3" placeholder ="Your Message" reset></textarea>
+    <textarea class="form-control modify-textarea rounded-3 k9luXQOfXJCJ4 mb-1" id="exampleFormControlTextarea1" rows="3" placeholder ="Your Message"required="required" reset></textarea>
     
+   <input class="btn btn-warning submit-btn" type="submit" name="" id="" value="Send message"/>
   </div>
-  <a class="btn btn-warning mb-5" href="mailto:alahi.cool@gmail.com">Send message</a>
+ 
   
   
 </form>
