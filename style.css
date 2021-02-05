@@ -1,8 +1,14 @@
 body {
-   background :black;
-    font-family: 'Nunito', sans-serif; 
+   background-image:linear-gradient(hsla(300,50%, 50%,0.5),50%,black), 
+   url("PicsArt_01-03-05.36.40.jpg")  ;
+   background-size :cover ;
+   background-repeat:no-repeat;
+   font-family: 'Nunito', sans-serif; 
+   height :100vh;
 }
-
+html{
+  scroll-behavior: smooth;
+} 
  /*font-family: 'Poppins', sans-serif  !important */
  
  /* preloader */
@@ -19,8 +25,8 @@ z-index: 999999;
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 42%;
-  left: 43%;
+  top: 44%;
+  left: 40%;
 }
 
 .cube1, .cube2 {
@@ -80,12 +86,15 @@ z-index: 999999;
   font-weight: 200 ;
   padding :10px 15px;
   
-  
 }
  
 .info{
   margin-top: 5%;
   margin-left :10px ;
+}
+.details{
+  font-family: 'Poppins', sans-serif  !important;
+  text-shadow: 1px 1px 1px black;
 }
 .greeting{
   font-family:  'Poppins', sans-serif  !important ;
