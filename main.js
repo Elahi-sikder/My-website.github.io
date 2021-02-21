@@ -18,17 +18,13 @@ window.location.disabled= linkLocation;
 };
 }(jQuery)); 
 
+  $('#nav-icon2').click(function() {
+    $(this).toggleClass('open');
+  });
+
+
 $("html, body").pagefade(500, 500); 
 /*... */
-
-  $('.icon').click(function (){
-    $('.list').show('slow')
-  });
   
-  $('.closed').click(function (){
-    $('.list').hide('slow')
-  })
-})
-
-/*menu slider end*/
+});
 
