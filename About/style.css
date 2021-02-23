@@ -27,7 +27,7 @@ header{
 nav {
   width: 100%;
   position: fixed ;
-  top: -110vh;
+  top: -500vh;
   left :0rem;
   z-index: 99;
   background-color:rgba(0, 0, 0, 0.9) ;
